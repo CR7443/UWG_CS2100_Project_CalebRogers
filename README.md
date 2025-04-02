@@ -1,0 +1,36 @@
+# GEOINT Website Project
+
+## Project Description
+This website serves as the official digital presence for the Georgia State Defense Force (GSDF) GEOINT Section. Its primary purpose is to provide accurate and timely geospatial intelligence (GEOINT) for disaster response, emergency management, and operational planning.
+
+The site includes pages that outline the organization's mission, available products and services (including custom map requests), team information, and resources. All content is structured to support ease of navigation, readability, and responsive use across devices.
+
+## Features
+- Homepage with quick links and announcements
+- About Us section with mission overview and contact table
+- Products & Services page with a dynamic request form
+- Resources section for external materials and references
+- Custom CSS styling for consistent design and mobile responsiveness
+- Basic form integration with demo backend script
+
+## Installation Instructions
+This project is static and does not require a complex setup. To run locally:
+
+1. Clone or download the project directory.
+2. Ensure all files (`home.html`, `about.html`, `product-services.html`, `resources.html`, `ProjectStyle.css`, and `Images/`) are in the same directory structure.
+3. Open `home.html` in any modern web browser (e.g., Chrome, Firefox, Safari, Edge).
+
+> Note: An internet connection is required for external links and the form submission script to work properly.
+
+## Usage Instructions
+1. Navigate between pages using the top navigation bar.
+2. View team info and GEOINT background under **About Us**.
+3. Submit mapping or intelligence requests via the **Products & Services** page form.
+4. Visit **Resources** for linked external tools and documents.
+5. Use the site on desktop or mobile — it is optimized up to 1080p screen sizes.
+
+## Future Development
+- Add alt text for all images to improve accessibility
+- Conduct formal accessibility and speed testing
+- Enable search engine indexing and SEO
+- Enhance form backend processing and validation

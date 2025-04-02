@@ -1,0 +1,38 @@
+Home Page Layout
+    Header:
+        Logo (Left-aligned)
+        Navigation Menu (Centered)
+    Main Content:
+        Welcome Banner with GEOINT Overview
+        Quick Links to Key Sections
+        Latest News or Announcements
+    Footer:
+        Contact Information
+        Social Media Links
+        Privacy Policy & Terms of Service
+
+About Us Page Layout
+    Header: (Same as Home Page)
+    Main Content:
+        Section Description / Mission Statement
+        Team Members (Grid or List View with Photos & Titles)
+    Footer: (Same as Home Page)
+
+Products & Services Page Layout
+    Header: (Same as Home Page)
+    Main Content:
+        List of Available Geospatial Products (Thumbnail + Brief Description)
+        Custom Map Request Form
+        Ordering System (Step-by-Step Guide)
+    Sidebar:
+        RFI Tracker (View Only)
+    Footer: (Same as Home Page)
+
+Resources Page Layout
+    Header: (Same as Home Page)
+    Main Content:
+        Downloadable Resources (List/Grid View with Filters)
+        Software Tutorials
+    Sidebar:
+        Related Links & External Resources
+    Footer: (Same as Home Page)

@@ -7,123 +7,133 @@
   <link rel="stylesheet" href="ProjectStyle.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="Images/GSDF_Logo.png" alt="GSDF Logo">
+<header>
+  <div class="logo">
+    <img src="Images/GSDF_Logo.png" alt="GSDF Logo">
+  </div>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="product-services.html">Products & Services</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="products.html">Shop</a></li> <!-- New Shop Link (For removal later) -->
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="welcome-banner">
+    <h1>Products & Services</h1>
+  </section>
+
+  <!-- E-Commerce Section (For removal later) -->
+  <section class="ecommerce-section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <!-- Example Product -->
+      <div class="product">
+        <img src="Images/example-product.jpg" alt="Example Product">
+        <h3>Product Name</h3>
+        <p>Short product description goes here.</p>
+        <p class="price">$20.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <!-- Add more products as needed -->
     </div>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="product-services.html">Products & Services</a></li>
-        <li><a href="resources.html">Resources</a></li>
-      </ul>
-    </nav>
-  </header>
+  </section>
+  <!-- End of E-Commerce Section (For removal later) -->
 
-  <main>
-    <section class="welcome-banner">
-      <h1>Products & Services</h1>
-    </section>
+  <section class="form-container">
+    <h2>Request Details</h2>
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+      <!-- Name Input -->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
 
-    <section class="form-container">
-      <h2>Request Details</h2>
-      <form method="post" action="https://webdevbasics.net/scripts/demo.php">
-        <!-- Name Input -->
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <!-- Rank Dropdown -->
+      <div class="form-group">
+        <label for="rank">Rank:</label>
+        <select id="rank" name="rank" required>
+          <option value="">Select Rank</option>
+          <option value="PVT">PVT</option>
+          <option value="PV2">PV2</option>
+          <option value="PFC">PFC</option>
+          <option value="SPC">SPC</option>
+          <option value="CPL">CPL</option>
+          <option value="SGT">SGT</option>
+          <option value="SSG">SSG</option>
+          <option value="SFC">SFC</option>
+          <option value="MSG">MSG</option>
+          <option value="1SG">1SG</option>
+          <option value="SGM">SGM</option>
+          <option value="CSM">CSM</option>
+          <option value="2LT">2LT</option>
+          <option value="1LT">1LT</option>
+          <option value="CPT">CPT</option>
+          <option value="MAJ">MAJ</option>
+          <option value="LTC">LTC</option>
+          <option value="COL">COL</option>
+          <option value="WO1">WO1</option>
+          <option value="CW2">CW2</option>
+          <option value="CW3">CW3</option>
+          <option value="CW4">CW4</option>
+          <option value="CW5">CW5</option>
+        </select>
+      </div>
+
+      <!-- Unit Input -->
+      <div class="form-group">
+        <label for="unit">Unit:</label>
+        <input type="text" id="unit" name="unit" placeholder="Enter your unit" required>
+      </div>
+
+      <!-- Phone Number Input -->
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      <!-- Type Checkboxes -->
+      <div class="form-group">
+        <span>Type:</span>
+        <div class="checkbox-group">
+          <label><input type="checkbox" id="IDP" name="IDP" value="IDP"> IDP</label>
+          <label><input type="checkbox" id="Digital Map" name="Digital Map" value="Digital Map"> Digital Map</label>
+          <label><input type="checkbox" id="Physical Map" name="Physical Map" value="Physical Map"> Physical Map</label>
         </div>
+      </div>
 
-        <!-- Rank Dropdown -->
-        <div class="form-group">
-          <label for="rank">Rank:</label>
-          <select id="rank" name="rank" required>
-            <option value="">Select Rank</option>
-            <option value="PVT">PVT</option>
-            <option value="PV2">PV2</option>
-            <option value="PFC">PFC</option>
-            <option value="SPC">SPC</option>
-            <option value="CPL">CPL</option>
-            <option value="SGT">SGT</option>
-            <option value="SSG">SSG</option>
-            <option value="SFC">SFC</option>
-            <option value="MSG">MSG</option>
-            <option value="1SG">1SG</option>
-            <option value="SGM">SGM</option>
-            <option value="CSM">CSM</option>
-            <option value="2LT">2LT</option>
-            <option value="1LT">1LT</option>
-            <option value="CPT">CPT</option>
-            <option value="MAJ">MAJ</option>
-            <option value="LTC">LTC</option>
-            <option value="COL">COL</option>
-            <option value="WO1">WO1</option>
-            <option value="CW2">CW2</option>
-            <option value="CW3">CW3</option>
-            <option value="CW4">CW4</option>
-            <option value="CW5">CW5</option>
-            </select>
-        </div>
+      <!-- Location Input -->
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter the location" required>
+      </div>
 
-        <!-- Unit Input -->
-        <div class="form-group">
-          <label for="unit">Unit:</label>
-          <input type="text" id="unit" name="unit" placeholder="Enter your unit" required>
-        </div>
+      <!-- Suspense Date Input -->
+      <div class="form-group">
+        <label for="suspense-date">Suspense Date:</label>
+        <input type="date" id="suspense-date" name="suspense-date" required>
+      </div>
 
-        <!-- Phone Number Input -->
-        <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-        </div>
+      <!-- Description Textarea -->
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" placeholder="Provide details for the request"></textarea>
+      </div>
 
-        <!-- Type Checkboxes -->
-        <div class="form-group">
-          <span>Type:</span>
-          <div class="checkbox-group">
-            <label><input type="checkbox" id="IDP" name="IDP" value="IDP"> IDP</label>
-            <label><input type="checkbox" id="Digital Map" name="Digital Map" value="Digital Map"> Digital Map</label>
-            <label><input type="checkbox" id="Physical Map" name="Physical Map" value="Physical Map"> Physical Map</label>
-          </div>
-        </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</main>
 
-        <!-- Location Input -->
-        <div class="form-group">
-          <label for="location">Location:</label>
-          <input type="text" id="location" name="location" placeholder="Enter the location" required>
-        </div>
+<footer>
+  <p>&copy; 2024 GEOINT. All rights reserved.</p>
+</footer>
 
-        <!-- Suspense Date Input -->
-        <div class="form-group">
-          <label for="suspense-date">Suspense Date:</label>
-          <input type="date" id="suspense-date" name="suspense-date" required>
-        </div>
-
-        <!-- Description Textarea -->
-        <div class="form-group">
-          <label for="description">Description:</label>
-          <textarea id="description" name="description" rows="4" placeholder="Provide details for the request" required></textarea>
-        </div>
-
-        <!-- Submit Button -->
-        <div class="form-actions">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <div>
-      Contact Us: <a href="mailto:caleb.rogers@gsdf.ga.gov">caleb.rogers@gsdf.ga.gov</a></br>
-      Follow Us on <a href="https://www.facebook.com/GeorgiaSDF">Social Media</a></br>
-    </div>
-    <div>
-      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-    </div>
-  </footer>
-
+<!-- Include scripts for e-commerce functionality (For removal later) -->
+<script src="shoppingCart.js"></script>
 </body>
-
 </html>

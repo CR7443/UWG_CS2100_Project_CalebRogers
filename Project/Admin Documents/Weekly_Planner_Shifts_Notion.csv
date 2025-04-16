@@ -1,0 +1,106 @@
+Schedule,Day,Time Block,Activity
+School Police,Monday,12 AM–6 AM,Sleep
+School Police,Monday,6 AM–8 AM,Prep/DJ
+School Police,Monday,8 AM–4 PM,Work
+School Police,Monday,4 PM–6 PM,DJ
+School Police,Monday,6 PM–12 AM,Rest
+School Police,Tuesday,12 AM–6 AM,Sleep
+School Police,Tuesday,6 AM–8 AM,Prep/DJ
+School Police,Tuesday,8 AM–4 PM,Work
+School Police,Tuesday,4 PM–6 PM,DJ
+School Police,Tuesday,6 PM–12 AM,Rest
+School Police,Wednesday,12 AM–6 AM,Sleep
+School Police,Wednesday,6 AM–8 AM,Prep
+School Police,Wednesday,8 AM–4 PM,Work
+School Police,Wednesday,4 PM–6 PM,Free
+School Police,Wednesday,6 PM–12 AM,Rest
+School Police,Thursday,12 AM–6 AM,Sleep
+School Police,Thursday,6 AM–8 AM,Prep
+School Police,Thursday,8 AM–4 PM,Work
+School Police,Thursday,4 PM–6 PM,Free
+School Police,Thursday,6 PM–12 AM,Rest
+School Police,Friday,12 AM–6 AM,Sleep
+School Police,Friday,6 AM–8 AM,Prep/DJ
+School Police,Friday,8 AM–4 PM,Work
+School Police,Friday,4 PM–6 PM,DJ
+School Police,Friday,6 PM–12 AM,Rest
+School Police,Saturday,12 AM–6 AM,Sleep
+School Police,Saturday,6 AM–8 AM,DJ
+School Police,Saturday,8 AM–4 PM,Free/DJ
+School Police,Saturday,4 PM–6 PM,DJ
+School Police,Saturday,6 PM–12 AM,Free
+School Police,Sunday,12 AM–6 AM,Sleep
+School Police,Sunday,6 AM–8 AM,DJ
+School Police,Sunday,8 AM–4 PM,Free/DJ
+School Police,Sunday,4 PM–6 PM,DJ
+School Police,Sunday,6 PM–12 AM,Free
+Sheriff Day Shift,Monday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Monday,6 AM–8 AM,Commute
+Sheriff Day Shift,Monday,8 AM–4 PM,Work
+Sheriff Day Shift,Monday,4 PM–6 PM,Work
+Sheriff Day Shift,Monday,6 PM–12 AM,Rest
+Sheriff Day Shift,Tuesday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Tuesday,6 AM–8 AM,Commute
+Sheriff Day Shift,Tuesday,8 AM–4 PM,Work
+Sheriff Day Shift,Tuesday,4 PM–6 PM,Work
+Sheriff Day Shift,Tuesday,6 PM–12 AM,Rest
+Sheriff Day Shift,Wednesday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Wednesday,6 AM–8 AM,Free
+Sheriff Day Shift,Wednesday,8 AM–4 PM,Free
+Sheriff Day Shift,Wednesday,4 PM–6 PM,Free
+Sheriff Day Shift,Wednesday,6 PM–12 AM,Free
+Sheriff Day Shift,Thursday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Thursday,6 AM–8 AM,Free
+Sheriff Day Shift,Thursday,8 AM–4 PM,Free
+Sheriff Day Shift,Thursday,4 PM–6 PM,Free
+Sheriff Day Shift,Thursday,6 PM–12 AM,Free
+Sheriff Day Shift,Friday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Friday,6 AM–8 AM,Commute
+Sheriff Day Shift,Friday,8 AM–4 PM,Work
+Sheriff Day Shift,Friday,4 PM–6 PM,Work
+Sheriff Day Shift,Friday,6 PM–12 AM,Rest
+Sheriff Day Shift,Saturday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Saturday,6 AM–8 AM,DJ
+Sheriff Day Shift,Saturday,8 AM–4 PM,DJ
+Sheriff Day Shift,Saturday,4 PM–6 PM,DJ
+Sheriff Day Shift,Saturday,6 PM–12 AM,Free
+Sheriff Day Shift,Sunday,12 AM–6 AM,Sleep
+Sheriff Day Shift,Sunday,6 AM–8 AM,DJ
+Sheriff Day Shift,Sunday,8 AM–4 PM,DJ
+Sheriff Day Shift,Sunday,4 PM–6 PM,DJ
+Sheriff Day Shift,Sunday,6 PM–12 AM,Free
+Sheriff Night Shift,Monday,12 AM–6 AM,Work
+Sheriff Night Shift,Monday,6 AM–8 AM,Sleep
+Sheriff Night Shift,Monday,8 AM–4 PM,Sleep
+Sheriff Night Shift,Monday,4 PM–6 PM,Prep
+Sheriff Night Shift,Monday,6 PM–12 AM,Work
+Sheriff Night Shift,Tuesday,12 AM–6 AM,Work
+Sheriff Night Shift,Tuesday,6 AM–8 AM,Sleep
+Sheriff Night Shift,Tuesday,8 AM–4 PM,Sleep
+Sheriff Night Shift,Tuesday,4 PM–6 PM,Prep
+Sheriff Night Shift,Tuesday,6 PM–12 AM,Work
+Sheriff Night Shift,Wednesday,12 AM–6 AM,Work
+Sheriff Night Shift,Wednesday,6 AM–8 AM,Sleep
+Sheriff Night Shift,Wednesday,8 AM–4 PM,Sleep
+Sheriff Night Shift,Wednesday,4 PM–6 PM,Prep
+Sheriff Night Shift,Wednesday,6 PM–12 AM,Work
+Sheriff Night Shift,Thursday,12 AM–6 AM,Work
+Sheriff Night Shift,Thursday,6 AM–8 AM,Sleep
+Sheriff Night Shift,Thursday,8 AM–4 PM,Sleep
+Sheriff Night Shift,Thursday,4 PM–6 PM,Prep
+Sheriff Night Shift,Thursday,6 PM–12 AM,Work
+Sheriff Night Shift,Friday,12 AM–6 AM,Work
+Sheriff Night Shift,Friday,6 AM–8 AM,Sleep
+Sheriff Night Shift,Friday,8 AM–4 PM,Sleep
+Sheriff Night Shift,Friday,4 PM–6 PM,Prep
+Sheriff Night Shift,Friday,6 PM–12 AM,Work
+Sheriff Night Shift,Saturday,12 AM–6 AM,Work
+Sheriff Night Shift,Saturday,6 AM–8 AM,DJ
+Sheriff Night Shift,Saturday,8 AM–4 PM,DJ
+Sheriff Night Shift,Saturday,4 PM–6 PM,Prep
+Sheriff Night Shift,Saturday,6 PM–12 AM,Work
+Sheriff Night Shift,Sunday,12 AM–6 AM,Work
+Sheriff Night Shift,Sunday,6 AM–8 AM,DJ
+Sheriff Night Shift,Sunday,8 AM–4 PM,DJ
+Sheriff Night Shift,Sunday,4 PM–6 PM,Prep
+Sheriff Night Shift,Sunday,6 PM–12 AM,Work

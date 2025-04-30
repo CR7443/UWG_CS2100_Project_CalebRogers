@@ -25,6 +25,7 @@
 <main>
   <section class="welcome-banner">
     <h1>Welcome to GEOINT</h1>
+    <p id="greeting-message"></p> <!-- Placeholder for the greeting message -->
     <p>Providing accurate and timely geospatial intelligence to enhance emergency response, disaster relief, and operational planning.</p>
   </section>
 <!--Media Section Start-->
@@ -65,5 +66,26 @@
     <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
   </div>
 </footer>
+
+<!-- JavaScript to add greeting based on time -->
+<script>
+  // Greeting based on the current time
+  const greetingMessageElement = document.getElementById("greeting-message");
+  const currentTime = new Date().getHours();
+  let greeting;
+
+  if (currentTime < 12) {
+    greeting = "Good Morning!";
+  } else if (currentTime < 18) {
+    greeting = "Good Afternoon!";
+  } else {
+    greeting = "Good Evening!";
+  }
+
+  // Update the message content
+  if (greetingMessageElement) {
+    greetingMessageElement.textContent = greeting;
+  }
+</script>
 </body>
 </html>

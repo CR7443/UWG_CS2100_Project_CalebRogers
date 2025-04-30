@@ -29,7 +29,8 @@
   </section>
 
   <h2>About Us</h2>
-  <p>The Georgia State Defense Force (GSDF) GEOINT Section is dedicated to providing geospatial intelligence (GEOINT) support for disaster response, emergency management, and operational planning. As a specialized unit within the GSDF, we leverage advanced mapping technologies, geographic information systems (GIS), and remote sensing to enhance situational awareness and decision-making for state and local agencies. Our team consists of skilled professionals trained in geospatial analysis, ensuring accurate, timely, and actionable intelligence to support the GSDF’s mission of protecting and serving the people of Georgia.</p>
+  <p id="about-us-greeting">
+    The Georgia State Defense Force (GSDF) GEOINT Section is dedicated to providing geospatial intelligence (GEOINT) support for disaster response, emergency management, and operational planning. As a specialized unit within the GSDF, we leverage advanced mapping technologies, geographic information systems (GIS), and remote sensing to enhance situational awareness and decision-making for state and local agencies. <span id="dynamic-greeting"></span></p>
 
   <h2>Team Members</h2>
     <table>
@@ -65,4 +66,25 @@
   </div>
 </footer>
 </body>
+
+<script>
+  // Add a greeting based on the current time
+  const greetingElement = document.getElementById("dynamic-greeting");
+  const currentHour = new Date().getHours();
+  let greetingText;
+
+  if (currentHour < 12) {
+    greetingText = "Good morning, and welcome to our team!";
+  } else if (currentHour < 18) {
+    greetingText = "Good afternoon, and thank you for your interest!";
+  } else {
+    greetingText = "Good evening, and we appreciate your visit!";
+  }
+
+  // Append the dynamic greeting to the paragraph
+  if (greetingElement) {
+    greetingElement.textContent = greetingText;
+  }
+</script>
+
 </html>
